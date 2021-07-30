@@ -1,7 +1,7 @@
 /// A Logger For Flutter Apps
 /// Usage:
 /// 1) AppLog.i("Info Message");
-/// 2) AppLog.i("Home Page", "User Logging");
+/// 2) AppLog.i("Home Page", tag: "User Logging");
 class AppLog {
   static const String _DEFAULT_TAG_PREFIX = "FlutterApp";
 
